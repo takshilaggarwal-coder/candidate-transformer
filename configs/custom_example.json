@@ -1,0 +1,15 @@
+{
+  "_comment": "Demonstrates every config capability: subset of fields, rename via 'from', nested + indexed + wildcard paths, per-field normalization, on_missing override, and toggles.",
+  "fields": [
+    { "path": "full_name", "type": "string", "required": true },
+    { "path": "primary_email", "from": "emails[0]", "type": "string", "required": true },
+    { "path": "phone", "from": "phones[0]", "type": "string", "normalize": "E164" },
+    { "path": "location.country", "from": "location.country", "type": "string", "normalize": "iso3166" },
+    { "path": "current_title", "from": "experience[0].title", "type": "string", "on_missing": "null" },
+    { "path": "skills", "from": "skills[].name", "type": "string[]", "normalize": "canonical" }
+  ],
+  "include_confidence": true,
+  "include_provenance": false,
+  "on_missing": "null",
+  "default_region": "US"
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "candidate_id": "cand_748489fd0a",
+    "full_name": "Raj Patel",
+    "emails": [
+      "raj.patel@example.in"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": "https://github.com/rajp",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Senior Software Engineer",
+    "years_experience": 5.0,
+    "skills": [
+      {
+        "name": "Java",
+        "confidence": 0.953,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.953,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "confidence": 0.953,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "Spring",
+        "confidence": 0.953,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Zomato",
+        "title": "Senior Software Engineer",
+        "start": "2022-07",
+        "end": null,
+        "summary": "Built order-pipeline microservices in Java and Spring."
+      },
+      {
+        "company": "Infosys",
+        "title": "Software Engineer",
+        "start": "2019-06",
+        "end": "2022-06",
+        "summary": "Maintained MySQL-backed services and REST endpoints."
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech",
+        "field": "Information Technology",
+        "end_year": 2019
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "remapped"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "remapped"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct+lowercased"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "remapped+lowercased"
+      },
+      {
+        "field": "emails",
+        "source": "resume",
+        "method": "extracted+lowercased"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "remapped+E164"
+      },
+      {
+        "field": "phones",
+        "source": "resume",
+        "method": "extracted+E164"
+      },
+      {
+        "field": "location.city",
+        "source": "recruiter_csv",
+        "method": "direct"
+      },
+      {
+        "field": "location.region",
+        "source": "ats_json",
+        "method": "remapped"
+      },
+      {
+        "field": "location.country",
+        "source": "recruiter_csv",
+        "method": "direct+ISO3166"
+      },
+      {
+        "field": "links.github",
+        "source": "ats_json",
+        "method": "remapped"
+      },
+      {
+        "field": "skills:Java",
+        "source": "ats_json",
+        "method": "remapped+canonical"
+      },
+      {
+        "field": "skills:Java",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Kubernetes",
+        "source": "ats_json",
+        "method": "remapped+canonical"
+      },
+      {
+        "field": "skills:Kubernetes",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:MySQL",
+        "source": "ats_json",
+        "method": "remapped+canonical"
+      },
+      {
+        "field": "skills:MySQL",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Spring",
+        "source": "ats_json",
+        "method": "remapped+canonical"
+      },
+      {
+        "field": "skills:Spring",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Docker",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "experience[0]",
+        "source": "resume",
+        "method": "extracted"
+      },
+      {
+        "field": "experience[1]",
+        "source": "resume",
+        "method": "extracted"
+      },
+      {
+        "field": "education[0]",
+        "source": "resume",
+        "method": "extracted"
+      }
+    ],
+    "overall_confidence": 0.9328
+  },
+  {
+    "candidate_id": "cand_8661e36fcb",
+    "full_name": "Jane A. Doe",
+    "emails": [
+      "jane.doe@example.com",
+      "jane.d@gmail.com"
+    ],
+    "phones": [
+      "+14155550186"
+    ],
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/janedoe",
+      "github": "https://github.com/janedoe",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Senior Backend Engineer",
+    "years_experience": 7.0,
+    "skills": [
+      {
+        "name": "Python",
+        "confidence": 0.9695,
+        "sources": [
+          "ats_json",
+          "resume",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Go",
+        "confidence": 0.953,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.953,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.953,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "Kafka",
+        "confidence": 0.87,
+        "sources": [
+          "resume",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "AWS",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "REST",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "GraphQL",
+        "confidence": 0.765,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Stripe",
+        "title": "Senior Backend Engineer",
+        "start": "2021-03",
+        "end": null,
+        "summary": "Led reliability for the payments ledger; cut incident rate by 40%. Designed event pipelines on Kafka processing 2B+ events/day."
+      },
+      {
+        "company": "Acme Corp",
+        "title": "Backend Engineer",
+        "start": "2018-06",
+        "end": "2021-02",
+        "summary": "Built internal REST APIs in Python and Go."
+      }
+    ],
+    "education": [
+      {
+        "institution": "UC Berkeley",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": 2018
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "remapped"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "remapped"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "remapped"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct+lowercased"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "remapped+lowercased"
+      },
+      {
+        "field": "emails",
+        "source": "resume",
+        "method": "extracted+lowercased"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_notes",
+        "method": "extracted+lowercased"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "remapped+lowercased"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct+E164"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "remapped+E164"
+      },
+      {
+        "field": "phones",
+        "source": "resume",
+        "method": "extracted+E164"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_notes",
+        "method": "extracted+E164"
+      },
+      {
+        "field": "location.city",
+        "source": "recruiter_csv",
+        "method": "direct"
+      },
+      {
+        "field": "location.region",
+        "source": "recruiter_csv",
+        "method": "direct"
+      },
+      {
+        "field": "location.country",
+        "source": "ats_json",
+        "method": "remapped+ISO3166"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "ats_json",
+        "method": "remapped"
+      },
+      {
+        "field": "links.github",
+        "source": "ats_json",
+        "method": "remapped"
+      },
+      {
+        "field": "skills:Python",
+        "source": "ats_json",
+        "method": "remapped+canonical"
+      },
+      {
+        "field": "skills:Python",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Python",
+        "source": "recruiter_notes",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Go",
+        "source": "ats_json",
+        "method": "remapped+canonical"
+      },
+      {
+        "field": "skills:Go",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Kubernetes",
+        "source": "ats_json",
+        "method": "remapped+canonical"
+      },
+      {
+        "field": "skills:Kubernetes",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:PostgreSQL",
+        "source": "ats_json",
+        "method": "remapped+canonical"
+      },
+      {
+        "field": "skills:PostgreSQL",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Kafka",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Kafka",
+        "source": "recruiter_notes",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:AWS",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Docker",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:REST",
+        "source": "resume",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:GraphQL",
+        "source": "ats_json",
+        "method": "remapped+canonical"
+      },
+      {
+        "field": "experience[0]",
+        "source": "resume",
+        "method": "extracted"
+      },
+      {
+        "field": "experience[1]",
+        "source": "resume",
+        "method": "extracted"
+      },
+      {
+        "field": "education[0]",
+        "source": "resume",
+        "method": "extracted"
+      }
+    ],
+    "overall_confidence": 0.9171
+  },
+  {
+    "candidate_id": "cand_9a4eec5eba",
+    "full_name": "Garbled Row",
+    "emails": [],
+    "phones": [],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct"
+      }
+    ],
+    "overall_confidence": 0.15
+  },
+  {
+    "candidate_id": "cand_ba5a6c421b",
+    "full_name": "Maria Garcia",
+    "emails": [],
+    "phones": [
+      "+34612345678"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "Django",
+        "confidence": 0.35,
+        "sources": [
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.35,
+        "sources": [
+          "recruiter_notes"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_notes",
+        "method": "extracted"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_notes",
+        "method": "extracted+E164"
+      },
+      {
+        "field": "skills:Django",
+        "source": "recruiter_notes",
+        "method": "extracted+canonical"
+      },
+      {
+        "field": "skills:Python",
+        "source": "recruiter_notes",
+        "method": "extracted+canonical"
+      }
+    ],
+    "overall_confidence": 0.1813
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Raj Patel",
+    "email": "raj.patel@example.in",
+    "phone": "+919876543210",
+    "headline": "Senior Software Engineer",
+    "github": "https://github.com/rajp"
+  },
+  {
+    "name": "Jane A. Doe",
+    "email": "jane.doe@example.com",
+    "phone": "+14155550186",
+    "headline": "Senior Backend Engineer",
+    "github": "https://github.com/janedoe"
+  },
+  {
+    "name": "Garbled Row"
+  },
+  {
+    "name": "Maria Garcia",
+    "phone": "+34612345678"
+  }
+]

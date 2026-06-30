@@ -1,0 +1,73 @@
+{
+  "exportedBy": "GreenhouseATS",
+  "exportVersion": "v3",
+  "candidates": [
+    {
+      "applicant_name": "Jane A. Doe",
+      "contact": {
+        "primaryEmail": "JANE.DOE@example.com",
+        "altEmail": "jane.d@gmail.com",
+        "mobileNumber": "+1 415 555 0186"
+      },
+      "addr": { "town": "San Francisco", "state": "CA", "nation": "USA" },
+      "social": {
+        "linkedinUrl": "https://www.linkedin.com/in/janedoe",
+        "githubHandle": "janedoe"
+      },
+      "headline": "Senior Backend Engineer",
+      "totalExperienceYears": 7,
+      "skillSet": ["python", "golang", "postgres", "k8s", "graphql"],
+      "employmentHistory": [
+        {
+          "employer": "Stripe",
+          "designation": "Senior Backend Engineer",
+          "from": "Mar 2021",
+          "to": "present",
+          "description": "Owns payments-ledger reliability."
+        },
+        {
+          "employer": "Acme Corp",
+          "designation": "Backend Engineer",
+          "from": "2018-06",
+          "to": "2021-02"
+        }
+      ],
+      "academics": [
+        {
+          "school": "UC Berkeley",
+          "qualification": "B.S.",
+          "specialization": "Computer Science",
+          "yearOfPassing": 2018
+        }
+      ]
+    },
+    {
+      "applicant_name": "Raj Patel",
+      "contact": {
+        "primaryEmail": "raj.patel@example.in",
+        "mobileNumber": "9876543210"
+      },
+      "addr": { "town": "Bengaluru", "state": "Karnataka", "nation": "India" },
+      "social": { "githubUrl": "https://github.com/rajp" },
+      "headline": "Senior Software Engineer",
+      "totalExperienceYears": "5 years",
+      "skillSet": ["Java", "Spring Boot", "mysql", "kubernetes"],
+      "employmentHistory": [
+        {
+          "employer": "Zomato",
+          "designation": "Senior Software Engineer",
+          "from": "July 2022",
+          "to": "Present"
+        }
+      ],
+      "academics": [
+        {
+          "school": "IIT Bombay",
+          "qualification": "B.Tech",
+          "specialization": "Information Technology",
+          "yearOfPassing": "2019"
+        }
+      ]
+    }
+  ]
+}

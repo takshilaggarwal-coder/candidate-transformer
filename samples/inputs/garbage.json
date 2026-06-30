@@ -1,0 +1,4 @@
+{ "candidates": [ { "applicant_name": "Corrupted Export",
+  "contact": { "primaryEmail": "oops@@bad",,, }  <-- this file is intentionally
+  malformed JSON to demonstrate that a garbage source is skipped with a warning
+  instead of crashing the pipeline.

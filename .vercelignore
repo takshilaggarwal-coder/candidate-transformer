@@ -1,0 +1,13 @@
+# Keep the serverless bundle small. Runtime needs only:
+#   api/, src/, samples/inputs/, configs/, requirements.txt, vercel.json
+tests/
+scripts/
+demo_shots/
+samples/outputs/
+.pytest_cache/
+*.pdf
+*.zip
+*.md
+.DS_Store
+__pycache__/
+*.pyc

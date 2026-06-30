@@ -1,0 +1,8 @@
+Candidate: Jane Doe  <jane.doe@example.com>
+Spoke with Jane on Friday. ~7 years experience, very strong in Python and Kafka.
+Best reached at 415-555-0186. Open to staff-level backend roles. Confirmed she is
+still at Stripe.
+
+Candidate: Maria Garcia
+Phone +34 612 345 678. Mentions Python and Django from a side project. No email or
+resume yet -- details are sparse, please verify before progressing.

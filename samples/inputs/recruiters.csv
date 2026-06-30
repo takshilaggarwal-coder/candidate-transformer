@@ -1,0 +1,5 @@
+name,email,phone,current_company,title,location
+Jane Doe,jane.doe@example.com,(415) 555-0186,Stripe,Senior Backend Engineer,"San Francisco, CA"
+Raj Patel,raj.patel@example.in,,Infosys,Software Engineer,"Bengaluru, India"
+,,,,,
+Garbled Row,not-an-email,123,,,
